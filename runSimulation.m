@@ -202,7 +202,7 @@ function [outcome, time] = runSimulation(params,cccounter)
     time = counter;
     
     % % Plot state evolution and energy
-    plotSheet_forFigures(sheet_states,energy_vs_time,activity_states,fold_ids,twist_ids, savefile,savedir,"recent",true,false)
+    % plotSheet_forFigures(sheet_states,energy_vs_time,activity_states,fold_ids,twist_ids, savefile,savedir,"recent",true,false)
     
     % % Plot contact area vs. time
     plotContactArea(sheet_states,savefile,savedir,int2str(cccounter),true)
